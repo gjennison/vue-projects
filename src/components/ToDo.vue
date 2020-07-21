@@ -181,10 +181,6 @@ input{
     float: left;
 }
 
-input::placeholder{
-    color: white;
-}
-
 input:focus{
     border-color: #11998e;
     border-left: 0px;
