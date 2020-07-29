@@ -129,7 +129,7 @@ export default {
     height: 200%;
     z-index: -1;
 
-    animation: particles 2.5s linear infinite;
+    animation: particles 3.5s linear infinite;
 }
 
 .particles2{
@@ -140,7 +140,7 @@ export default {
     height: 200%;
     z-index: -1;
 
-    animation: particles2 2.5s linear infinite;
+    animation: particles2 3.5s linear infinite;
 }
 
 
@@ -152,7 +152,7 @@ export default {
     {
         top: 100%;
     }
-    50.1%
+    50.001%
     {
         top: -100%;
     }
