@@ -44,7 +44,7 @@ export default {
                 return "img/logo.82b9c7a5.png"
             }
             else
-                return "http://image.tmdb.org/t/p/w185" + path;
+                return "https://image.tmdb.org/t/p/w185" + path;
         }
     }
 }

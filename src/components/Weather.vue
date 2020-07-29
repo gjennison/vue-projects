@@ -59,7 +59,7 @@ export default {
             var xhttp = new XMLHttpRequest();
             var comp = this;
 
-            xhttp.open("GET",'http://api.openweathermap.org/data/2.5/weather?q=' + comp.weather.city + '&appid=58e70e2fb15041870d65b59cc4f4e856',true);
+            xhttp.open("GET",'https://api.openweathermap.org/data/2.5/weather?q=' + comp.weather.city + '&appid=58e70e2fb15041870d65b59cc4f4e856',true);
             xhttp.send();
             var json;
             xhttp.onload=function(){
